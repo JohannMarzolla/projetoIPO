@@ -1,0 +1,14 @@
+@media (min-width: 1200px) {
+
+    .intro{
+        
+        font-size: 10px;
+        color: #333;
+        
+        
+        display:  flex;
+        width: 500px;
+        text-align: center;
+        margin-top: 100px;
+    }
+}

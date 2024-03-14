@@ -1,0 +1,641 @@
+@media (min-width: 1200px) {
+
+    .topnav {
+      width: 100%;
+      height: 48px;
+      background-color: none;
+      font-family: 'Courier New', Courier, monospace;
+    }
+  
+    .topnav a {
+      float: left;
+      color: #3a5f89;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+  
+    .topnav a:hover {
+      background-color: #ebf9fd;
+      color: #3a5f89;
+    }
+  
+    .logo {
+      width: 48px;
+      height: 48px;
+      float: right;
+    }
+  
+    .logo-b3 {
+      float: right;
+    }
+  
+    .score-result {
+      width: 650px;
+      height: 600px;
+      background-color: white;
+      font-family: 'Courier New', Courier, monospace;
+  
+    }
+  
+    .score-section {
+      font-size: 50px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      background-color: #ebf9fd;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      padding-left: 30px;
+    }
+  
+    .question-count {
+      font-size: 20px;
+      text-align: right;
+      font-family: 'Courier New', Courier, monospace;
+      padding: 20px;
+    }
+  
+    .question-answer {
+      width: 50%;
+      height: 100vh;
+      padding: 50px;
+    }
+  
+    .question-text {
+      font-size: 40px;
+      font-family: 'Courier New', Courier, monospace;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      width: 650px;
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .answer-section {
+      text-align: center;
+      align-items: center;
+      gap: 20px;
+      padding: 30px;
+    }
+  
+    .button {
+      padding: 15px 25px;
+      font-size: 24px;
+      text-align: center;
+      cursor: pointer;
+      outline: none;
+      color: #fff;
+      background-color: #00347e;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 9px #999;
+      display: flex;
+      margin-bottom: 25px;
+    }
+  
+    .button:hover {
+      background-color: #3e828e
+    }
+  
+    .button:active {
+      background-color: #3e8e83;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
+  
+    .explanation {
+      font-size: 10px;
+      color: #000000;
+    }
+  
+    .title {
+      font-family: Arial, sans-serif;
+      font-size: 26px;
+      line-height: 1.5;
+      color: #333;
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    }
+  
+    .silvinha {
+      float: right;
+      padding: 50px;
+    }
+    
+  }
+  
+  @media (min-width: 992px) {
+  
+    .topnav {
+      width: 100%;
+      height: 48px;
+      background-color: none;
+      font-family: 'Courier New', Courier, monospace;
+    }
+  
+    .topnav a {
+      float: left;
+      color: #3a5f89;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+  
+    .topnav a:hover {
+      background-color: #ebf9fd;
+      color: #3a5f89;
+    }
+  
+    .logo {
+      width: 48px;
+      height: 48px;
+      float: right;
+    }
+  
+    .logo-b3 {
+      float: right;
+    }
+  
+    .score-result {
+      width: 650px;
+      height: 600px;
+      background-color: white;
+      font-family: 'Courier New', Courier, monospace;
+  
+    }
+  
+    .score-section {
+      font-size: 50px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+    }
+  
+    .question-count {
+      font-size: 20px;
+      text-align: right;
+      font-family: 'Courier New', Courier, monospace;
+      padding: 20px;
+    }
+  
+    .question-answer {
+      width: 600;
+      height: 100vh;
+    }
+  
+    .question-text {
+      font-size: 40px;
+      font-family: 'Courier New', Courier, monospace;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      width: 650px;
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .answer-section {
+      text-align: center;
+      align-items: center;
+      gap: 20px;
+      padding: 30px;
+    }
+  
+    .button {
+      padding: 15px 25px;
+      font-size: 24px;
+      text-align: center;
+      cursor: pointer;
+      outline: none;
+      color: #fff;
+      background-color: #00347e;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 9px #999;
+      display: flex;
+      margin-bottom: 25px;
+    }
+  
+    .button:hover {
+      background-color: #3e828e
+    }
+  
+    .button:active {
+      background-color: #3e8e83;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
+  
+    .explanation {
+      font-size: 12px;
+      line-height: 1.5;
+      color: #333;
+      letter-spacing: 1px;
+      text-align: center;
+    }
+  
+    .title {
+      font-family: Arial, sans-serif;
+      font-size: 36px;
+      line-height: 1.5;
+      color: #333;
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+      display: flex;
+      width: 350px;
+      text-align: center;
+      padding-left: 200px;
+    }
+  
+    .silvinha {
+      float: right;
+      max-width: 300px;
+      padding-top: 20px;
+    }
+    .intro{
+      font-family: Arial, sans-serif;
+      font-size: 5px;
+      color: #333;
+      font-weight: bold;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+      display:  flex;
+      width: 500px;
+      text-align: center;
+      margin-top: 100px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+  
+    .topnav {
+      width: 100%;
+      height: 38px;
+      background-color: none;
+      font-family: 'Courier New', Courier, monospace;
+    }
+  
+    .topnav a {
+      float: left;
+      color: #3a5f89;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+  
+    .topnav a:hover {
+      background-color: #ebf9fd;
+      color: #3a5f89;
+    }
+  
+    .logo {
+      width: 38px;
+      height: 38px;
+      float: right;
+    }
+  
+    .logo-b3 {
+      float: right;
+    }
+  
+    .score-result {
+      width: 650px;
+      height: 600px;
+      background-color: white;
+      font-family: 'Courier New', Courier, monospace;
+    }
+  
+    .score-section {
+      font-size: 50px;
+      text-align: center;
+    }
+  
+    .question-count {
+      font-size: 10px;
+      text-align: right;
+      font-family: 'Courier New', Courier, monospace;
+      padding: 7px;
+    }
+  
+    .question-text {
+      font-size: 30px;
+      font-family: 'Courier New', Courier, monospace;
+      text-align: center;
+    }
+  
+    .answer-section {
+      text-align: center;
+    }
+  
+    .button {
+      padding: 15px 25px;
+      font-size: 20px;
+      text-align: center;
+      cursor: pointer;
+      outline: none;
+      color: #fff;
+      background-color: #00347e;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 9px #999;
+      display: block;
+      margin-bottom: 25px;
+    }
+  
+    .button:hover {
+      background-color: #3e828e
+    }
+  
+    .button:active {
+      background-color: #3e8e83;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
+  
+    .explanation {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #333;
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-align: center;
+    }
+  
+    .title {
+      font-family: Arial, sans-serif;
+      font-size: 26px;
+      line-height: 1.5;
+      color: #333;
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+      text-align: center;
+    }
+  
+    .silvinha {
+      float: right;
+      max-width: 350px;
+    }
+    
+  
+  }
+  
+  @media (min-width: 600px) {
+  
+    .topnav {
+      width: 100%;
+      height: 38px;
+      background-color: none;
+      font-family: 'Courier New', Courier, monospace;
+    }
+  
+    .topnav a {
+      float: left;
+      color: #3a5f89;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+  
+    .topnav a:hover {
+      background-color: #ebf9fd;
+      color: #3a5f89;
+    }
+  
+    .logo {
+      width: 38px;
+      height: 38px;
+      float: right;
+    }
+  
+    .logo-b3 {
+      float: right;
+    }
+  
+    .score-result {
+      width: 650px;
+      height: 600px;
+      background-color: white;
+      font-family: 'Courier New', Courier, monospace;
+    }
+  
+    .score-section {
+      font-size: 50px;
+      text-align: center;
+    }
+  
+    .question-count {
+      font-size: 10px;
+      text-align: right;
+      font-family: 'Courier New', Courier, monospace;
+      padding: 7px;
+    }
+  
+    .question-text {
+      font-size: 30px;
+      font-family: 'Courier New', Courier, monospace;
+      text-align: center;
+    }
+  
+    .answer-section {
+      text-align: center;
+    }
+  
+    .button {
+      padding: 15px 25px;
+      font-size: 20px;
+      text-align: center;
+      cursor: pointer;
+      outline: none;
+      color: #fff;
+      background-color: #00347e;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 9px #999;
+      display: block;
+      margin-bottom: 25px;
+    }
+  
+    .button:hover {
+      background-color: #3e828e
+    }
+  
+    .button:active {
+      background-color: #3e8e83;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
+  
+    .explanation {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #333;
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-align: center;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    }
+  
+    .title {
+      font-family: Arial, sans-serif;
+      font-size: 26px;
+      line-height: 1.5;
+      color: #333;
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+      text-align: center;
+    }
+  
+    .silvinha {
+      float: right;
+      width: 40%;
+    }
+    .intro{
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #333;
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 600px) {
+  
+    .topnav {
+      width: 100%;
+      height: 18px;
+      background-color: none;
+      font-family: 'Courier New', Courier, monospace;
+    }
+  
+    .topnav a {
+      float: left;
+      color: #3a5f89;
+      text-align: center;
+      padding: 4px 6px;
+      text-decoration: none;
+      font-size: 17px;
+      margin-bottom: 5px;
+    }
+  
+    .topnav a:hover {
+      background-color: #ebf9fd;
+      color: #3a5f89;
+    }
+  
+    .logo {
+      width: 18px;
+      height: 18px;
+      float: right;
+    }
+  
+    .logo-b3 {
+      float: right;
+    }
+  
+    .score-result {
+      width: 650px;
+      height: 600px;
+      background-color: white;
+      font-family: 'Courier New', Courier, monospace;
+    }
+  
+    .score-section {
+      font-size: 50px;
+      text-align: center;
+    }
+  
+    .question-count {
+      font-size: 10px;
+      text-align: right;
+      font-family: 'Courier New', Courier, monospace;
+      padding: 7px;
+    }
+  
+    .question-text {
+      font-size: 20px;
+      font-family: 'Courier New', Courier, monospace;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    .answer-section {
+      text-align: center;
+    }
+  
+    .button {
+      padding: 15px 25px;
+      font-size: 20px;
+      text-align: center;
+      cursor: pointer;
+      outline: none;
+      color: #fff;
+      background-color: #00347e;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 9px #999;
+      display: block;
+      margin-bottom: 25px;
+      font-size: 10px;
+    }
+  
+    .button:hover {
+      background-color: #3e828e
+    }
+  
+    .button:active {
+      background-color: #3e8e83;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
+  
+    .explanation {
+      font-family: Arial, sans-serif;
+      font-size: 12px;
+      line-height: 1.5;
+      color: #333;
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-align: center;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    }
+  
+    .title {
+      font-family: Arial, sans-serif;
+      font-size: 20px;
+      line-height: 1.5;
+      color: #333;
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+      text-align: center;
+    }
+  
+    .silvinha {
+      float: right;
+      width: 40%;
+    }
+    .intro{
+      font-family: Arial, sans-serif;
+      font-size: 20px;
+      line-height: 1.5;
+      color: #333;
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+      text-align: center;
+    }
+  }
